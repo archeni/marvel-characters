@@ -1,0 +1,22 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: grey;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-buttons {
+  align-content: right;
+}
+.marvel-pic {
+  display: flex;
+}
+
+.marvel-background-pic {
+  display: flex;
+  position: fixed;
+  right: 500px;
+}
