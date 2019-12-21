@@ -1,10 +1,11 @@
+/* eslint-disable max-len */
 const characters = [
   {
     id: 'character1',
     teamId: 'team0',
     genderId: 'gender0',
     name: 'Rogue',
-    description: '',
+    description: 'abcde fghij klmno pqrst uvwxy z',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/c/90/537bc196df2fb/standard_xlarge.jpg',
   },
   {
@@ -60,7 +61,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender1',
     name: 'Beast',
-    description: '',
+    description: '1234567890',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/6/40/537ba156b62e6/standard_xlarge.jpg',
   },
   {
@@ -68,7 +69,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender1',
     name: 'Cyclops',
-    description: '',
+    description: '1234567890',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/6/70/526547e2d90ad/standard_xlarge.jpg',
   },
   {
@@ -76,7 +77,7 @@ const characters = [
     teamId: 'team0',
     genderId: 'gender0',
     name: 'Emma Frost',
-    description: '',
+    description: 'abcde fghij klmno pqrst uvwxy z',
     imageUrl: 'https://i.annihil.us/u/prod/marvel/i/mg/c/80/537ba9fe1c75a/standard_xlarge.jpg',
   },
   {
@@ -137,6 +138,4 @@ const characters = [
   },
 ];
 
-const charactersFunc = () => characters;
-
-export default { charactersFunc };
+export default { characters };

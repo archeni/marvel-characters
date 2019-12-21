@@ -13,10 +13,37 @@ body {
 }
 .marvel-pic {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .marvel-background-pic {
   display: flex;
   position: fixed;
   right: 500px;
+}
+
+.card {
+  background-color: grey;
+  border: 5px, solid;
+  border-color: white;
+}
+
+.card-title {
+  text-align: center;
+  background-color: orange;
+}
+
+.card-img-top{
+  border-radius: 50%;
+}
+
+.gender0{
+  border: 2px solid pink;
+}
+
+.gender1{
+  border: 2px solid blue;
+}
+.card-text{
+  color: red;
 }
