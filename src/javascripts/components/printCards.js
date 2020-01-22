@@ -11,7 +11,7 @@ const printCard = (poopooface) => {
   for (let i = 0; i < hero.length; i += 1) {
     if (hero[i].teamId === poopooface) {
       stringDom += `
-      <div class='card' style='width: 18rem;'>
+      <div class='card col-sm-2' style='width: 18rem;'>
         <h3 class='card-title'>${hero[i].name}</h3>
         <img src='${hero[i].imageUrl}' class='card-img-top ${hero[i].genderId}' alt='${hero[i].name}'>
         <div class='card-body'>
