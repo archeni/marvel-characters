@@ -14,6 +14,7 @@ body {
 .marvel-pic {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .marvel-background-pic {
@@ -26,6 +27,10 @@ body {
   background-color: grey;
   border: 5px, solid;
   border-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card-title {
